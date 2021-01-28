@@ -1,0 +1,22 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix socatel: <http://www.everis.es/SoCaTel/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+socatel:Post_2184506168483578_2184506241816904 a socatel:Post;
+  sioc:num_replies 3;
+  socatel:createdBy socatel:FoafAgent_2184505761816952;
+  socatel:creationDate "2019-02-05T08:23:09+0000"^^xsd:dateTime;
+  socatel:description "Test Comment";
+  socatel:identifier "2184506168483578_2184506241816904";
+  socatel:num_likes 1;
+  socatel:webLink <https://www.facebook.com/2184505761816952/posts/2184506168483578/?comment_id=2184506241816904> .
+
+socatel:FoafAgent_1986916064738608 a foaf:Agent;
+  sioc:likes socatel:Post_2184506168483578_2184506241816904;
+  socatel:identifier "1986916064738608";
+  foaf:name "Rafael Constantinou" .
+
+socatel:FoafAgent_2184505761816952 a foaf:Agent;
+  socatel:identifier "2184505761816952";
+  foaf:name "App Page" .

@@ -1,0 +1,133 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix socatel: <http://www.everis.es/SoCaTel/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+socatel:Post_2184505761816952_2184506168483578 a socatel:Post;
+  sioc:num_replies 7;
+  socatel:createdBy socatel:FoafAgent_2184505761816952;
+  socatel:creationDate "2019-02-05T08:23:00+0000"^^xsd:dateTime;
+  socatel:description "Welcome to our page ! Feel free to post and communicate with the other members";
+  socatel:identifier "2184505761816952_2184506168483578";
+  socatel:num_likes 3;
+  socatel:webLink <https://www.facebook.com/2184505761816952/posts/2184506168483578/> .
+
+socatel:FoafAgent_1543199735782339 a foaf:Agent;
+  sioc:likes socatel:Post_2184505761816952_2184506168483578;
+  socatel:identifier "1543199735782339";
+  foaf:name "Agrotis Yiannis" .
+
+socatel:FoafAgent_1986916064738608 a foaf:Agent;
+  sioc:likes socatel:Post_2184505761816952_2184506168483578;
+  socatel:identifier "1986916064738608";
+  foaf:name "Rafael Constantinou" .
+
+socatel:FoafAgent_2184505761816952 a foaf:Agent;
+  sioc:likes socatel:Post_2184505761816952_2184506168483578;
+  socatel:identifier "2184505761816952";
+  foaf:name "App Page" .
+
+socatel:Post_2184506168483578_2184506241816904 a socatel:Post;
+  sioc:num_replies 3;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:createdBy socatel:FoafAgent_2184505761816952;
+  socatel:creationDate "2019-02-05T08:23:09+0000"^^xsd:dateTime;
+  socatel:description "Test Comment";
+  socatel:identifier "2184506168483578_2184506241816904";
+  socatel:num_likes 1 .
+
+socatel:Post_2184506168483578_2184509828483212 a socatel:Post;
+  sioc:num_replies 1;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:creationDate "2019-02-05T08:35:40+0000"^^xsd:dateTime;
+  socatel:description "Comment test";
+  socatel:identifier "2184506168483578_2184509828483212";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184510698483125 a socatel:Post;
+  sioc:num_replies 1;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:creationDate "2019-02-05T08:38:45+0000"^^xsd:dateTime;
+  socatel:description "Nice comment a!";
+  socatel:identifier "2184506168483578_2184510698483125";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184607158473479 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:creationDate "2019-02-05T12:57:45+0000"^^xsd:dateTime;
+  socatel:description "Hello";
+  socatel:identifier "2184506168483578_2184607158473479";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184607371806791 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184506168483578_2184509828483212;
+  socatel:createdBy socatel:FoafAgent_1543199735782339;
+  socatel:description "reply tis prokopis";
+  socatel:identifier "2184506168483578_2184607371806791";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184612078472987 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184506168483578_2184510698483125;
+  socatel:createdBy socatel:FoafAgent_1543199735782339;
+  socatel:description "i enikserw grafw kati";
+  socatel:identifier "2184506168483578_2184612078472987";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184612128472982 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184506168483578_2184506241816904;
+  socatel:createdBy socatel:FoafAgent_1543199735782339;
+  socatel:description "kamw reply tou poupanw";
+  socatel:identifier "2184506168483578_2184612128472982";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184615895139272 a socatel:Post;
+  sioc:num_replies 1;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:creationDate "2019-02-05T13:15:40+0000"^^xsd:dateTime;
+  socatel:description "Comment for no reply";
+  socatel:identifier "2184506168483578_2184615895139272";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184618185139043 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184506168483578_2184506241816904;
+  socatel:createdBy socatel:FoafAgent_2184505761816952;
+  socatel:description "Agrotis Yiannis Haha nice !";
+  socatel:identifier "2184506168483578_2184618185139043";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2184626618471533 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184506168483578_2184506241816904;
+  socatel:createdBy socatel:FoafAgent_2184505761816952;
+  socatel:description "johny? Agrotis";
+  socatel:identifier "2184506168483578_2184626618471533";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2185195838414611 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:creationDate "2019-02-06T09:02:36+0000"^^xsd:dateTime;
+  socatel:description "New Comment 06/02";
+  socatel:identifier "2184506168483578_2185195838414611";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2185195908414604 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184506168483578_2184615895139272;
+  socatel:createdBy socatel:FoafAgent_1986916064738608;
+  socatel:description "New reply 06/02";
+  socatel:identifier "2184506168483578_2185195908414604";
+  socatel:num_likes 0 .
+
+socatel:Post_2184506168483578_2205611976372997 a socatel:Post;
+  sioc:num_replies 0;
+  sioc:reply_of socatel:Post_2184505761816952_2184506168483578;
+  socatel:creationDate "2019-03-12T12:21:36+0000"^^xsd:dateTime;
+  socatel:description "New post on 12/3";
+  socatel:identifier "2184506168483578_2205611976372997";
+  socatel:num_likes 0 .

@@ -1,0 +1,48 @@
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix socatel: <http://www.everis.es/SoCaTel/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+socatel:Page_2184505761816952 a socatel:Page;
+  sioc:container_of socatel:Post_2184505761816952_2184506168483578, socatel:Post_2184505761816952_2185168505084011,
+    socatel:Post_2184505761816952_2197962197137975, socatel:Post_2184505761816952_2206031856331009,
+    socatel:Post_2184505761816952_2206034892997372, socatel:Post_2184505761816952_623359511436513;
+  socatel:description "An application for testing mostly";
+  socatel:identifier "2184505761816952";
+  socatel:location socatel:GnFeature_425347233;
+  socatel:num_likes 3;
+  socatel:title "App Page";
+  socatel:topic socatel:SkosConcept_1383974343;
+  socatel:webLink <http://localhost/base/www.no-company.com>, <https://www.facebook.com/App-Page-2184505761816952/> .
+
+socatel:GnFeature_425347233 a gn:Feature;
+  gn:countryCode "United States";
+  gn:name "Los Angeles" .
+
+socatel:Post_2184505761816952_2184506168483578 a socatel:Post;
+  socatel:description "Welcome to our page ! Feel free to post and communicate with the other members";
+  socatel:identifier "2184505761816952_2184506168483578" .
+
+socatel:Post_2184505761816952_2185168505084011 a socatel:Post;
+  socatel:description "The weather is very rainy today";
+  socatel:identifier "2184505761816952_2185168505084011" .
+
+socatel:Post_2184505761816952_2197962197137975 a socatel:Post;
+  socatel:description "Interesting photo";
+  socatel:identifier "2184505761816952_2197962197137975" .
+
+socatel:Post_2184505761816952_2206031856331009 a socatel:Post;
+  socatel:description "App Page is at Χαλάρωση. - This is a post from my mobile device #mobile #device #post";
+  socatel:identifier "2184505761816952_2206031856331009" .
+
+socatel:Post_2184505761816952_2206034892997372 a socatel:Post;
+  socatel:description "App Page shared an event.";
+  socatel:identifier "2184505761816952_2206034892997372" .
+
+socatel:Post_2184505761816952_623359511436513 a socatel:Post;
+  socatel:description "App Page added an event. - Just a launch";
+  socatel:identifier "2184505761816952_623359511436513" .
+
+socatel:SkosConcept_1383974343 a skos:Concept;
+  skos:prefLabel "Software" .

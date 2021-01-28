@@ -1,0 +1,49 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix socatel: <http://www.everis.es/SoCaTel/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+socatel:OpenDataSource_7f6b18d1-207f-40e6-89cc-333b680b2ccf a socatel:OpenDataSource;
+  socatel:createdBy socatel:FoafAgent_fingal-county-council;
+  socatel:creationDate "2011-12-07"^^xsd:dateTime;
+  socatel:description """Location of Disabled Car Parking spaces known to Fingal County Council
+This dataset outlines the disabled parking bays on streets and roads with the Fingal County Council administrative area.  Fields include id Area Description ROADNAME Area Total Spaces Dipped footpath Park Sign Road Marking Occupied Lat Long'Spatial Projection: WGS84""";
+  socatel:identifier "7f6b18d1-207f-40e6-89cc-333b680b2ccf";
+  socatel:language "en";
+  socatel:location socatel:GnFeature_2104389383;
+  socatel:title "Disabled Parking Spaces";
+  socatel:topic socatel:SkosConcept_1102600228, socatel:SkosConcept_1238034679, socatel:SkosConcept_1473109597,
+    socatel:SkosConcept_1504784728, socatel:SkosConcept_1621453604, socatel:SkosConcept_1839003506,
+    socatel:SkosConcept_272657049, socatel:SkosConcept_793201736;
+  socatel:webLink <https://data.smartdublin.ie/dataset/disabled-parking-spaces> .
+
+socatel:FoafAgent_fingal-county-council a foaf:Agent;
+  foaf:name "Fingal County Council" .
+
+socatel:GnFeature_2104389383 a gn:Feature;
+  gn:name "Fingal" .
+
+socatel:SkosConcept_1102600228 a skos:Concept;
+  skos:prefLabel "transportation-infrastructure" .
+
+socatel:SkosConcept_1238034679 a skos:Concept;
+  skos:prefLabel "Transport" .
+
+socatel:SkosConcept_1473109597 a skos:Concept;
+  skos:prefLabel "Transport and Infrastructure" .
+
+socatel:SkosConcept_1504784728 a skos:Concept;
+  skos:prefLabel "transport-for-disabled-people" .
+
+socatel:SkosConcept_1621453604 a skos:Concept;
+  skos:prefLabel "disability" .
+
+socatel:SkosConcept_1839003506 a skos:Concept;
+  skos:prefLabel "parking-bays" .
+
+socatel:SkosConcept_272657049 a skos:Concept;
+  skos:prefLabel "disabled-parking" .
+
+socatel:SkosConcept_793201736 a skos:Concept;
+  skos:prefLabel "parking" .
