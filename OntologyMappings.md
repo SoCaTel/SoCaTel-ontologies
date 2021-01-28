@@ -1,4 +1,4 @@
-![SoCaTelLogo](https://www.socatel.eu/wp-content/uploads/2018/02/logo_Socatel_L.png)
+<img src="https://platform.socatel.eu/images/socatel-logo.png" alt="SoCaTelLogo" width="250" />
 
 # **Ontology Mappings**
 ## Open Data Handler
