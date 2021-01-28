@@ -13,7 +13,7 @@ This section includes details about the Semantic Preprocessing component, which 
 
 ## **License**
 
-Semantic Preprocessing Pipelines is under [Creative Commons Zero v1.0 Universal](LICENSE).
+SOCATEL ontologies are under [Creative Commons Zero v1.0 Universal](LICENSE).
 
 ## **Contact**
 [Rizkallah Touma](mailto:rizk.allah.touma@everis.com)
