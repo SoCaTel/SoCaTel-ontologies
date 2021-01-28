@@ -13,7 +13,7 @@ This section includes details about the Semantic Preprocessing component, which 
 
 ## **License**
 
-Semantic Preprocessing Pipelines is under [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+Semantic Preprocessing Pipelines is under [Creative Commons Zero v1.0 Universal](LICENSE).
 
 
 
