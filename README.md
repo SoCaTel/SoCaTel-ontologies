@@ -1,4 +1,5 @@
-![SoCaTelLogo](https://www.socatel.eu/wp-content/uploads/2018/02/logo_Socatel_L.png)
+<img src="https://platform.socatel.eu/images/socatel-logo.png" alt="SoCaTelLogo" width="250" />
+
 
 # **SOCATEL conceptual framework**
 
@@ -12,9 +13,7 @@ This section includes details about the Semantic Preprocessing component, which 
 
 ## **License**
 
-[![License: CC BY 4.0](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
-
-Semantic Preprocessing Pipelines is under CC BY 4.0.
+Semantic Preprocessing Pipelines is under [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 
 
