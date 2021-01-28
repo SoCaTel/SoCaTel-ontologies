@@ -15,5 +15,16 @@ This section includes details about the Semantic Preprocessing component, which 
 
 Semantic Preprocessing Pipelines is under [Creative Commons Zero v1.0 Universal](LICENSE).
 
+## **Contact**
+[Rizkallah Touma](mailto:rizk.allah.touma@everis.com)
+
+[Emmanuel Jamin](mailto:emmanuel.jean.jacques.jamin@everis.com)
+
+[<img src="https://www.everis.com/sites/all/themes/everis/logo.png" alt="everis group" width="150" />](https://www.everis.com/global/en)
+
+## Acknowledgments
+
+* [SoCaTel project](https://www.socatel.eu/)
+* [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/en)
 
 
